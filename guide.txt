@@ -1,0 +1,20 @@
+Next js là framework( cấu hình router k cần sử dung react router dom như reactjs) nên không được sửa tên thư mục 
+
+-dynamic router
+ 	/:id=/[id]
+	[id].tsx
+-Mỗi page nextjs có thể có thẻ head riêng chứ k giống như head bên route của react
+-/admin/[…all] : giống axact bằng false bên react
+
+-router
+	router=useRouter()hoặc withRouter truyền xuống component một props router
+
+-Bỏ static file file trong public để làm static file(thư mục public cũng k dc sửa lại tên
+./xxx thì nó coi như đường link hiện tại,còn /xxx thì ms là static file
+
+-robots.txt :cải thiện seo cho trang web
+
+
+-Không dung chung slug name cho một path dynamic
+
+-api:làm api
