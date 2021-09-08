@@ -18,3 +18,5 @@ Next js là framework( cấu hình router k cần sử dung react router dom nh�
 -Không dung chung slug name cho một path dynamic
 
 -api:làm api
+
+-getInitialProps:server side rendering,chạy trong lúc build app,truyền xuống component như props 
